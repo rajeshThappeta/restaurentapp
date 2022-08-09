@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar-->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" width="80px" alt="LOGO" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Restaurents</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link">Items</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- header -->
+    <header>
+      <div class="content p-3">
+        <!-- title -->
+        <div class="border rounded mb-3 px-3 title">
+          <h1 class="display-5 fw-bold">Your Favourite Place</h1>
+          <p class="lead">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam,
+            quod.
+          </p>
+        </div>
+        <img
+          src="./images/2.webp"
+          width="300px"
+          height="300px"
+          class="rounded-circle mb-2 d-none d-sm-block"
+          alt=""
+        />
+        <!-- banner -->
+        <div class="w-50 mx-auto display-6 text-center banner">
+          Lorem ipsum dolor sit.
+        </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <div class="main container my-4">
+      <div class="opacity">
+        <!-- grid of cards -->
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 my-5 gy-5"
+        >
+          <!-- col -->
+          <div class="col">
+            <!-- card -->
+            <div class="card h-100">
+              <img
+                src="./images/item-1.jpeg"
+                class="w-100 card-img-top"
+                alt="Item-1"
+              />
+              <div class="card-body text-center">
+                <h1 class="dish-name">Item-1</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Ipsam, voluptatum?
+                </p>
+                <button
+                  class="btn btn-outline-warning"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#item-1"
+                >
+                  Customise
+                </button>
+                <div id="item-1" class="collapse">
+                  <!-- vaertical nav -->
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- col -->
+          <div class="col">
+            <!-- card -->
+            <div class="card h-100">
+              <img
+                src="./images/item-2.webp"
+                class="w-100 card-img-top"
+                alt="Item-1"
+              />
+              <div class="card-body text-center">
+                <h1 class="dish-name">Item-1</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Ipsam, voluptatum?
+                </p>
+                <button
+                  class="btn btn-outline-warning"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#item-2"
+                >
+                  Customise
+                </button>
+                <div id="item-2" class="collapse">
+                  <!-- vaertical nav -->
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- col -->
+          <div class="col">
+            <!-- card -->
+            <div class="card h-100">
+              <img
+                src="./images/item-3.jpeg"
+                class="w-100 card-img-top"
+                alt="Item-1"
+              />
+              <div class="card-body text-center">
+                <h1 class="dish-name">Item-1</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Ipsam, voluptatum?
+                </p>
+                <button
+                  class="btn btn-outline-warning"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#item-3"
+                >
+                  Customise
+                </button>
+                <div id="item-3" class="collapse">
+                  <!-- vaertical nav -->
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- col -->
+          <div class="col">
+            <!-- card -->
+            <div class="card h-100">
+              <img
+                src="./images/item-4.jpeg"
+                class="w-100 card-img-top"
+                alt="Item-1"
+              />
+              <div class="card-body text-center">
+                <h1 class="dish-name">Item-1</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Ipsam, voluptatum?
+                </p>
+                <button
+                  class="btn btn-outline-warning"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#item-4"
+                >
+                  Customise
+                </button>
+                <div id="item-4" class="collapse">
+                  <!-- vaertical nav -->
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- col -->
+          <div class="col">
+            <!-- card -->
+            <div class="card h-100">
+              <img
+                src="./images/item-4.webp"
+                class="w-100 card-img-top"
+                alt="Item-1"
+              />
+              <div class="card-body text-center">
+                <h1 class="dish-name">Item-1</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Ipsam, voluptatum?
+                </p>
+                <button
+                  class="btn btn-outline-warning"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#item-5"
+                >
+                  Customise
+                </button>
+                <div id="item-5" class="collapse">
+                  <!-- vaertical nav -->
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- col -->
+          <div class="col">
+            <!-- card -->
+            <div class="card h-100">
+              <img
+                src="./images/item-6.webp"
+                class="w-100 card-img-top"
+                alt="Item-1"
+              />
+              <div class="card-body text-center">
+                <h1 class="dish-name">Item-1</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Ipsam, voluptatum?
+                </p>
+                <button
+                  class="btn btn-outline-warning"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#item-6"
+                >
+                  Customise
+                </button>
+                <div id="item-6" class="collapse">
+                  <!-- vaertical nav -->
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- col -->
+          <div class="col">
+            <!-- card -->
+            <div class="card h-100">
+              <img
+                src="./images/item-8.jpeg"
+                class="w-100 card-img-top"
+                alt="Item-1"
+              />
+              <div class="card-body text-center">
+                <h1 class="dish-name">Item-1</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Ipsam, voluptatum?
+                </p>
+                <button
+                  class="btn btn-outline-warning"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#item-7"
+                >
+                  Customise
+                </button>
+                <div id="item-7" class="collapse collapse-horizontal">
+                  <!-- vaertical nav -->
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- col -->
+          <div class="col">
+            <!-- card -->
+            <div class="card h-100">
+              <img
+                src="./images/item-10.jpeg"
+                class="w-100 card-img-top"
+                alt="Item-1"
+              />
+              <div class="card-body text-center">
+                <h1 class="dish-name">Item-1</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Ipsam, voluptatum?
+                </p>
+                <button
+                  class="btn btn-outline-warning"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#item-8"
+                >
+                  Customise
+                </button>
+                <div id="item-8" class="collapse collapse-horizontal">
+                  <!-- vaertical nav -->
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="address">
+        <p class="lead">kphb</p>
+        <p class="lead">9999999</p>
+        <h5>Hyderabad</h5>
+        <h5>Telanaga</h5>
+      </div>
+
+      <div>
+        <img src="./images/footer.svg"  alt="" class="footer-img d-none d-sm-block">
+      </div>
+      <div class="address">
+        <p class="lead">Miyapur</p>
+        <p class="lead">8888888</p>
+        <h5>Hyderabad</h5>
+        <h5>Telanaga</h5>
+      </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
